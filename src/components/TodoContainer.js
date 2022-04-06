@@ -108,11 +108,7 @@ const TodoContainer = () => {
     }
   }
   const showRandomBySystem = () => {
-    if(count < 10 ){
-      return alert("please choose 10 exam in list below")
-    }else{
       setIsOpen2(true);
-    }
   }
   const closeModal2 = () => {
     setIsOpen2(false);
